@@ -70,7 +70,7 @@ color: whitesmoke;
 	text-align: center;
 }
 #view-product{
-	background: black;
+	background: #101010;
 	text-decoration: none;
 	padding: 0.3vw;
 }
@@ -85,9 +85,10 @@ color: whitesmoke;
 	font-weight: 5;
 }
 footer{
-	background: black;
+	background: #101010;
 	padding: 1vw;
 	list-style: none;
+	color: whitesmoke;
 
 }
 footer a{
