@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+a{
+	color: whitesmoke;
+}
+
+body{
+	background-size: cover;                
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-blend-mode: darken;
+  background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+font-family: 'Pacifico', cursive;
+
+}
+.header_menu{
+	display: grid;
+	grid-template-columns: 10vw 70vw 20vw;
+	align-items:center;
+	padding: 0.5vw;
+	font-size: 1.3vw;
+	  position: fixed;
+
+}
+.header_menu a{
+		text-decoration: none;
+}
+#logo{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2.5vw;
+  border-radius: 5vw;
+}
+#menu1{
+	width: inherit;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+#header_socials{
+	display: flex;
+	justify-content: space-evenly;
+}
+.menu_item{
+	list-style: none;
+}
+.front-container{
+width: 100%;
+height: 45vw;
+-webkit-user-select: none;      
+-moz-user-select: none;
+-ms-user-select: none; 
+user-select: none;
+text-align: center;
+vertical-align: middle;
+line-height: 45vw;  
+color: whitesmoke;
+}
+.front-posts{
+	width: 100%;
+	background: white;
+}
+.recent-posts{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 4vw 0vw 6vw 0vw;
+	text-align: center;
+}
+#view-product{
+	background: black;
+	text-decoration: none;
+	padding: 0.3vw;
+}
+#post-header{
+	text-align: center;
+	padding: 2vw;
+	font-weight: 50;
+}
+#post-paragraph{
+	text-align: center;
+	padding: 0vw 4vw 0vw 4vw;
+	font-weight: 5;
+}
+footer{
+	background: black;
+	padding: 1vw;
+	list-style: none;
+
+}
+footer a{
+	text-decoration: none;
+
+}
+#footer_socials a{
+	font-size: 1.8vw;
+	padding: 1.5vw;
+
+}
+.footer-container{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 1vw;
+}
+.single-product{
+padding: 7vw;
+}
+.next-prev{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.next-prev a{
+	color: black;
+}
