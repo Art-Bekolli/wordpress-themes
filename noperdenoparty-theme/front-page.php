@@ -1,7 +1,7 @@
 	<?php get_header(); ?>
 	
 
-	<body style="background: rgba(0, 0, 0, 0.4) url(<?php the_field('front_page_image', 24); ?>);">
+	<body style="background: rgba(0, 0, 0, 0.4) url(<?php the_field('front_page_image', 24); ?>); background-attachment: fixed;">
 		
 		<div class="front-container">
 			<h1 class="center-text"><?php echo get_option('blogdescription'); ?></h1>

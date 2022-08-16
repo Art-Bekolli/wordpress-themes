@@ -57,7 +57,7 @@ add_action( 'init', 'acf_settings' );
 
 add_action( 'after_setup_theme', 'noperdenoparty_thumbnail_size' );
 function noperdenoparty_thumbnail_size(){
-    add_image_size( 'single', 2000, 700, true );
+    add_image_size( 'single', 1200, 700, true );
 
 }
 ?>
