@@ -1,7 +1,7 @@
 	<?php get_header(); ?>
 	
 
-	<body style="background: rgba(0, 0, 0, 0.4) url(<?php the_field('front_page_image', 24); ?>); background-attachment: fixed;">
+	<body onload="ShowMore();" style="background: rgba(0, 0, 0, 0.4) url(<?php the_field('front_page_image', 24); ?>); background-attachment: fixed;">
 		
 		<div class="front-container">
 			<h1 class="center-text"><?php echo get_option('blogdescription'); ?></h1>
@@ -21,17 +21,9 @@
 
 
         	<div class="recent-posts">
-<?php 
-$postet = new WP_Query( array( 'posts_per_page' => 4,'orderby' => 'DATE', 'order' => 'ASC'  ) );
-while ( $postet->have_posts() ) : $postet->the_post();
-echo "<div class='post'><div id='thumbnail'>";
-the_post_thumbnail('thumbnail');
-echo "</div><div id='title'>"; 
-the_title();
-echo "</div><br><a href='" . get_the_permalink() . "' id='view-product'>View product</a></div>";
-endwhile;
-?>
+
 </div>
+<button id="view-products">show more</button>
         </div>
 
 	</body>

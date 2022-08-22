@@ -18,7 +18,8 @@ add_action('wp_enqueue_scripts', 'noperdenoparty_register_style');
 
 function noperdenoparty_register_script(){
 
-	wp_enqueue_style('jquery', 'https://code.jquery.com/jquery-3.6.0.min.js', array(), '3.6.0'); 
+	wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.6.0.min.js', array(), '3.6.0'); 
+	wp_enqueue_script('main_js', get_template_directory_uri() . "/js/main.js", NULL, 1.0, true); 
 }
 
 add_action('wp_enqueue_scripts', 'noperdenoparty_register_script');
