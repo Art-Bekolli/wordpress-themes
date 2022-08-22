@@ -12,8 +12,9 @@ body{
   background-attachment: fixed;
 	margin: 0;
 	padding: 0;
-font-family: 'Pacifico', cursive;
-
+}
+*{
+	font-family: 'Pacifico', cursive;
 }
 .header_menu{
 	display: grid;
@@ -62,17 +63,22 @@ color: whitesmoke;
 .front-posts{
 	width: 100%;
 	background: white;
-}
-.recent-posts{
-	display: flex;
-	justify-content: space-evenly;
-	padding: 4vw 0vw 6vw 0vw;
 	text-align: center;
 }
-#view-product{
+.recent-posts{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	padding-top: 4vw;
+	text-align: center;
+}
+.post{
+	padding-bottom: 2vw;
+}
+#view-products{
 	background: #101010;
-	text-decoration: none;
-	padding: 0.3vw;
+	padding: 0.5vw;
+	border: none;
+	margin: 1vw;
 }
 #post-header{
 	text-align: center;
